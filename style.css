@@ -1,0 +1,114 @@
+
+.main{
+    background-color: #fafafa;
+    display: flex;
+    vertical-align: middle;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+
+}
+.heading{
+    display: flex;
+    vertical-align: middle;
+}
+.navbar{
+    margin-left: 70px;
+    width: 200px;
+    height: 100%;
+  
+}
+.navbar h2{
+    font-size: 2.5rem;
+    color: #181818;
+    font-weight:900;
+    
+}
+.navbar p {
+    color: #181818;
+    font-size: 2rem;
+    
+}
+.navbar strike{
+    color: red;
+}
+.navbar button{
+    font-size: 1.2rem;
+    background-color:#ff4e4e;
+    padding: 20px;
+    color: white;
+    border-radius: 40px;
+    width: 160px;
+    height: 60px;
+    align-content: center;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+}
+.navbar button:hover{
+    background-color:#e75b5b ;
+    
+}
+/*************____________________________________________________________________*********************************/
+.main-page{
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+.big-heading{
+    font-size: 2.5rem;
+    width: 700px;
+}
+
+.small-heading{
+    font-size: 1.2rem;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 220px;
+    height: 80px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.small-heading p{
+    opacity: 0.5;
+}
+.small-heading hr{
+    width: 25%;
+    float: left;
+    color: #ff4e4e;
+    border: 1px solid #ff4e4e;
+    opacity: none!important;
+}
+/******************************************************************/
+.items{
+    display: flex;
+    vertical-align: middle;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.image-style{
+    border-radius: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+}
+.item-name{
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-left: 45px;
+}
+
+.item{
+    background-color: #ffffff;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 3px #dbdbdb;
+    margin-left: 23px;
+   
+    
+}
